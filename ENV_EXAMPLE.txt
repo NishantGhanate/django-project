@@ -1,0 +1,18 @@
+DEBUG = True
+ALLOWED_HOSTS = 127.0.0.1, localhost
+SECRET_KEY = ***zyc^x#8^s1b5g(rthxzi1+0vr(9ww_wreyafct9tkpl****
+
+DATABASE_URL= 
+DB_NAME = django_project
+DB_USER = postgres
+DB_PASSWORD = imgrootttt
+DB_HOST = 127.0.0.1
+DB_PORT = 5432
+
+
+EMAIL_HOST = smtp.gmail.com
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 69420@gmail.com
+EMAIL_HOST_PASSWORD = 69420
+DEFAULT_FROM_EMAIL = default from email
+EMAIL_BACKEND = django.core.mail.backends.smtp.EmailBackend
